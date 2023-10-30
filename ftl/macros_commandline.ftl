@@ -1,0 +1,1 @@
+<#macro ext mime><#if mime?contains("jpeg")>jpeg<#elseif mime?contains("png")>png<#elseif mime?contains("png")>png<#elseif mime?contains("ogg")>ogg<#elseif mime?contains("webm")>webm<#else>dat</#if></#macro>
